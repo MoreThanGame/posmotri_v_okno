@@ -17,9 +17,9 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   display: inline-flex;
-padding: 133px 30px;
-justify-content: center;
-align-items: center;
+  padding: 133px 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -176,9 +176,9 @@ ol {
 
 .search-form__fieldset {
   display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
   border: none;
 }
 
@@ -294,6 +294,7 @@ gap: 5px;
 .content__card-link_current:focus {
   outline: none;
 }
+
 .content__card-link_current:focus-visible {
   outline: #fff;
 }
