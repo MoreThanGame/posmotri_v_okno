@@ -236,12 +236,11 @@ ol {
 
 .search-form__checkbox:checked + span::before {
   content: "";
-  position: absolute;
-  left: 1px;
-  top: 1px;
+  display: block;
   width: 15px;
   height: 15px;
   background-color: #fff;
+  margin: 1.5px 1.5px;
 }
 
 .search-form__label-text:hover {
