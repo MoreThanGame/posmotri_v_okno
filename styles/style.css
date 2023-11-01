@@ -143,8 +143,8 @@ ol {
   line-height: 100%; /* 30px */
   text-transform: uppercase;
   margin-bottom: 6px;
-  text-overflow: ellipsis; 
-  white-space: nowrap; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
   overflow: hidden;
   max-width: 200px;
 }
@@ -155,8 +155,8 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: 90%;
-  text-overflow: ellipsis; 
-  white-space: nowrap; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
   overflow: hidden;
   max-width: 200px;
 }
@@ -181,19 +181,16 @@ ol {
 
 .search-form__label {
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 5px;
+  row-gap: 5px;
   width: fit-content;
   cursor: pointer;
+  column-gap: 5px;
 }
 
 .search-form__label-text {
-  display: inline-flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-margin-right: 5px;
+  margin-right: 6px;
 }
 
 .search-form__textfield {
@@ -205,10 +202,11 @@ margin-right: 5px;
   font-weight: 400;
   line-height: normal;
   background-color: transparent;
-  appearance: none; 
-  border: none; 
+  appearance: none;
+  border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  letter-spacing: -0.3px;
 }
 
 .search-form__pseudo-checkbox {
