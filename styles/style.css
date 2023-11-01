@@ -207,7 +207,6 @@ ol {
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  letter-spacing: -0.3px;
 }
 
 .search-form__pseudo-checkbox {
@@ -257,10 +256,6 @@ ol {
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
-}
-
-.search-form__textfield:hover {
-  text-decoration: none;
 }
 
 .search-form__label:has(:focus-visible) {
